@@ -1,0 +1,605 @@
+{
+  "LEFT | anti-China | China's Support for Russia Through Energy Purchases 2": {
+    "right_camp_counter": "None",
+    "ru_ch_camp_counter": "RU_CH | pro-CHINA | Energy Security and Self-Sufficiency",
+    "left_self_counter": "LEFT | pro-China | China's Energy Security and Diversification"
+  },
+  "LEFT | anti-China | China's Retaliatory Tariffs and Trade Disputes with the US": {
+    "right_camp_counter": "None",
+    "ru_ch_camp_counter": "RU_CH | pro-CHINA | Retaliation Against US Tariffs",
+    "left_self_counter": "None"
+  },
+  "LEFT | pro-Russia | Russia as a Key Energy Exporter, Particularly to China and India": {
+    "right_camp_counter": "RIGHT | anti-Russia | Impact on German and European Deindustrialization",
+    "ru_ch_camp_counter": "None",
+    "left_self_counter": "LEFT | anti-China | China's Support for Russia Through Energy Purchases 2"
+  },
+  "LEFT | pro-Russia | Russia's Energy Infrastructure for Exports": {
+    "right_camp_counter": "RIGHT | anti-Russia | Impact on German and European Deindustrialization",
+    "ru_ch_camp_counter": "RU_CH | anti-RUSSIA | Disruption of Energy Supplies to Europe",
+    "left_self_counter": "LEFT | anti-RUSSIA | reliance of European countries on Russia for their gas"
+  },
+  "LEFT | pro-Russia | Russian Gas as a Desired Commodity": {
+    "right_camp_counter": "RIGHT | anti-Russia | Impact on German and European Deindustrialization",
+    "ru_ch_camp_counter": "None",
+    "left_self_counter": "None"
+  },
+  "LEFT | pro-Russia | Russia as a Stable and Reliable (Claimed) Energy Partner": {
+    "right_camp_counter": "RIGHT | anti-Russia | Russia as an Unreliable and Threatening Energy Partner",
+    "ru_ch_camp_counter": "RU_CH | anti-RUSSIA | Unreliable Partner",
+    "left_self_counter": "LEFT | anti-RUSSIA | Russia's strategic use of its gas"
+  },
+  "LEFT | anti-US_USA_America | criticizes the US for the high cost of its energy": {
+    "right_camp_counter": "RIGHT | pro-LNG_Gas_Fracking | lower energy prices and security",
+    "ru_ch_camp_counter": "None",
+    "left_self_counter": "None"
+  },
+  "LEFT | anti-US_USA_America | pressure exerted by the US on other countries": {
+    "right_camp_counter": "None",
+    "ru_ch_camp_counter": "None",
+    "left_self_counter": "None"
+  },
+  "LEFT | anti-US_USA_America | US policies are harming the US": {
+    "right_camp_counter": "None",
+    "ru_ch_camp_counter": "None",
+    "left_self_counter": "LEFT | pro-US_USA_America | eading role in rebuilding Ukraine"
+  },
+  "LEFT | anti-US_USA_America | trade disputes initiated by the US": {
+    "right_camp_counter": "None",
+    "ru_ch_camp_counter": "None",
+    "left_self_counter": "None"
+  },
+  "LEFT | anti-US_USA_America | US seeking to control the energy resources of other countries": {
+    "right_camp_counter": "None",
+    "ru_ch_camp_counter": "None",
+    "left_self_counter": "LEFT | pro-US_USA_America | Ukraine aims to use US LNG"
+  },
+  "LEFT | anti-US_USA_America | Europe's growing dependence on US LNG": {
+    "right_camp_counter": "None",
+    "ru_ch_camp_counter": "None",
+    "left_self_counter": "LEFT | pro-US_USA_America | Ukraine aims to use US LNG"
+  },
+  "LEFT | anti-US_USA_America | Canadian public boycott of US products": {
+    "right_camp_counter": "None",
+    "ru_ch_camp_counter": "None",
+    "left_self_counter": "None"
+  },
+  "LEFT | pro-US_USA_America | largest net exporter of natural gas": {
+    "right_camp_counter": "None",
+    "ru_ch_camp_counter": "RU_CH | anti-US_USA_America | High Energy Prices and Economic Harm",
+    "left_self_counter": "LEFT | anti-US_USA_America | criticizes the US for the high cost of its energy"
+  },
+  "LEFT | pro-US_USA_America | leading role in rebuilding Ukraine": {
+    "right_camp_counter": "None",
+    "ru_ch_camp_counter": "RU_CH | anti-US_USA_America | Pressure and Manipulation in Energy Markets",
+    "left_self_counter": "LEFT | anti-US_USA_America | Europe's growing dependence on US LNG"
+  },
+  "LEFT | pro-US_USA_America | cleaner LNG exports": {
+    "right_camp_counter": "None",
+    "ru_ch_camp_counter": "RU_CH | anti-US_USA_America | High Energy Prices and Economic Harm",
+    "left_self_counter": "LEFT | anti-US_USA_America | criticizes the US for the high cost of its energy"
+  },
+  "LEFT | pro-US_USA_America | significant domestic energy resources": {
+    "right_camp_counter": "None",
+    "ru_ch_camp_counter": "None",
+    "left_self_counter": "None"
+  },
+  "LEFT | pro-US_USA_America | Ukraine aims to use US LNG": {
+    "right_camp_counter": "None",
+    "ru_ch_camp_counter": "RU_CH | anti-US_USA_America | Pressure and Manipulation in Energy Markets",
+    "left_self_counter": "LEFT | anti-US_USA_America | Europe's growing dependence on US LNG"
+  },
+  "LEFT | anti-IOC_Big_Oil | Climate Deception and Renewable Rollback": {
+    "right_camp_counter": "None",
+    "ru_ch_camp_counter": "None",
+    "left_self_counter": "LEFT | pro-IOC Themes (Less Prominent and Often Countered) | Economic Prosperity through Gas_Oil"
+  },
+  "LEFT | anti-IOC_Big_Oil | Environmental Destruction and Harm": {
+    "right_camp_counter": "None",
+    "ru_ch_camp_counter": "None",
+    "left_self_counter": "None"
+  },
+
+  "LEFT | anti-IOC_Big_Oil | Fossil Fuel Dependence and Climate Crisis": {
+        "right_camp_counter": "RIGHT | pro-LNG_Gas_Fracking | positive economic outcomes",
+        "ru_ch_camp_counter": "RU_CH | pro-IOC | Collaboration and Agreements for Gas Supply",
+        "left_self_counter": "LEFT | pro-IOC Themes (Less Prominent and Often Countered) | Economic Prosperity through Gas_Oil"
+    },
+    "LEFT | anti-IOC_Big_Oil | Corporate Greed and Profit Maximization": {
+        "right_camp_counter": "RIGHT | pro-LNG_Gas_Fracking | expansion of gas and LNG",
+        "ru_ch_camp_counter": "RU_CH | pro-IOC | Collaboration and Agreements for Gas Supply",
+        "left_self_counter": "LEFT | pro-IOC Themes (Less Prominent and Often Countered) | Economic Prosperity through Gas_Oil"
+    },
+    "LEFT | anti-IOC_Big_Oil | Political Influence and Regulatory Capture": {
+        "right_camp_counter": "RIGHT | pro-LNG_Gas_Fracking | positive economic outcomes",
+        "ru_ch_camp_counter": "None",
+        "left_self_counter": "LEFT | pro-IOC Themes (Less Prominent and Often Countered) | Economic Prosperity through Gas_Oil"
+    },
+    "LEFT | anti-IOC_Big_Oil | Carbon Capture Skepticism": {
+        "right_camp_counter": "RIGHT | pro-LNG_Gas_Fracking | expansion of gas and LNG",
+        "ru_ch_camp_counter": "RU_CH | pro-IOC | Corporate Social Responsibility",
+        "left_self_counter": "None"
+    },
+    "LEFT | anti-IOC_Big_Oil | Failed Economic Promises and Negative Impacts": {
+        "right_camp_counter": "RIGHT | pro-LNG_Gas_Fracking | expansion of gas and LNG",
+        "ru_ch_camp_counter": "RU_CH | pro-IOC | Collaboration and Agreements for Gas Supply",
+        "left_self_counter": "LEFT | pro-IOC Themes (Less Prominent and Often Countered) | Economic Prosperity through Gas_Oil"
+    },
+    "LEFT | anti-IOC_Big_Oil | Link to Privatization Negatives": {
+        "right_camp_counter": "None",
+        "ru_ch_camp_counter": "RU_CH | pro-IOC | Corporate Social Responsibility",
+        "left_self_counter": "None"
+    },
+    "LEFT | pro-IOC Themes (Less Prominent and Often Countered) | LNG as a Geopolitical Tool_Energy Security": {
+        "right_camp_counter": "None",
+        "ru_ch_camp_counter": "RU_CH | anti-IOC_Big_Oil | Excessive Profits and Greed at the Expense of Others",
+        "left_self_counter": "LEFT | anti-IOC_Big_Oil | Corporate Greed and Profit Maximization"
+    },
+    "LEFT | pro-IOC Themes (Less Prominent and Often Countered) | Economic Prosperity through Gas_Oil": {
+        "right_camp_counter": "RIGHT | anti-China | Imposing Tariffs on US Energy Exports",
+        "ru_ch_camp_counter": "RU_CH | anti-IOC_Big_Oil | Excessive Profits and Greed at the Expense of Others",
+        "left_self_counter": "LEFT | anti-IOC_Big_Oil | Corporate Greed and Profit Maximization"
+    },
+    "LEFT | pro-IOC Themes (Less Prominent and Often Countered) | Cleaner Gas Narrative": {
+        "right_camp_counter": "None",
+        "ru_ch_camp_counter": "RU_CH | anti-US_USA_America | High Energy Prices and Economic Harm",
+        "left_self_counter": "LEFT | anti-US_USA_America | criticizes the US for the high cost of its energy"
+    },
+    "LEFT | pro-Ukraine | transit and storage hub": {
+        "right_camp_counter": "RIGHT | anti-Ukraine | Being Used as a Pawn or Proxy in a Larger Conflict",
+        "ru_ch_camp_counter": "RU_CH | anti-US_USA_America | Pressure and Manipulation in Energy Markets",
+        "left_self_counter": "LEFT | anti-Europe_Ukraine | physical damage inflicted on Ukraine's gas"
+    },
+    "LEFT | pro-Ukraine | new exporter of green energy": {
+        "right_camp_counter": "None",
+        "ru_ch_camp_counter": "RU_CH | anti-US_USA_America | Control, Sabotage, and Exploitation of Resources",
+        "left_self_counter": "LEFT | anti-Europe_Ukraine | physical damage inflicted on Ukraine's gas"
+    },
+    "LEFT | pro-Ukraine | solidarity with communities resisting fossil fuel": {
+        "right_camp_counter": "None",
+        "ru_ch_camp_counter": "None",
+        "left_self_counter": "None"
+    },
+    "LEFT | pro-Ukraine | safety of critical infrastructure like the Chernobyl": {
+        "right_camp_counter": "RIGHT | anti-Ukraine | Targeting Russian Energy Infrastructure",
+        "ru_ch_camp_counter": "RU_CH | anti-US_USA_America | Control, Sabotage, and Exploitation of Resources",
+        "left_self_counter": "None"
+    },
+    "LEFT | pro-EU_Ukraine | eliminate their reliance on Russian fossil fuels": {
+        "right_camp_counter": "RIGHT | anti-EU | Continued Dependence on and Funding of Russia Through Energy Purchases",
+        "ru_ch_camp_counter": "RU_CH | anti-CHINA | Supporting Russia Through Energy Purchases",
+        "left_self_counter": "None"
+    },
+    "LEFT | pro-EU_Ukraine | integrating electricity markets": {
+        "right_camp_counter": "RIGHT | anti-Ukraine | Demands for Aid and Strained Relationships",
+        "ru_ch_camp_counter": "RU_CH | anti-US_USA_America | Pressure and Manipulation in Energy Markets",
+        "left_self_counter": "None"
+    },
+    "LEFT | pro-EU_Ukraine | support to Ukraine for gas purchases": {
+        "right_camp_counter": "RIGHT | anti-EU | Internal Divisions and Lack of Leadership",
+        "ru_ch_camp_counter": "RU_CH | anti-US_USA_America | Pressure and Manipulation in Energy Markets",
+        "left_self_counter": "None"
+    },
+    "LEFT | pro-EU_Ukraine | investments in renewable energy": {
+        "right_camp_counter": "RIGHT | anti-EU | Negative Consequences of Net Zero and Green Energy Policies",
+        "ru_ch_camp_counter": "RU_CH | anti-IOC_Big_Oil | Rollback of Green Initiatives and Deceptive Greenwashing",
+        "left_self_counter": "LEFT | anti-IOC_Big_Oil | Climate Deception and Renewable Rollback"
+    },
+    "LEFT | anti-Europe_Ukraine | reliance on Russian energy": {
+        "right_camp_counter": "RIGHT | pro-EU_Ukraine | Efforts to Reduce Dependence on Russian Energy (Aspirations more than Current Reality in these Tweets)",
+        "ru_ch_camp_counter": "RU_CH | pro-RUSSIA | Energy Infrastructure and Export Capabilities",
+        "left_self_counter": "LEFT | pro-Ukraine | new exporter of green energy"
+    },
+    "LEFT | anti-Europe_Ukraine | vulnerable to Russia's weaponization": {
+        "right_camp_counter": "RIGHT | pro-EU_Ukraine | Efforts to Reduce Dependence on Russian Energy (Aspirations more than Current Reality in these Tweets)",
+        "ru_ch_camp_counter": "None",
+        "left_self_counter": "LEFT | pro-Ukraine | new exporter of green energy"
+    },
+    "LEFT | anti-Europe_Ukraine | physical damage inflicted on Ukraine's gas": {
+        "right_camp_counter": "RIGHT | pro-EU_Ukraine | Ukraine as a Potential Transit Hub for US LNG",
+        "ru_ch_camp_counter": "None",
+        "left_self_counter": "LEFT | pro-Ukraine | new exporter of green energy"
+    },
+  "RIGHT | anti-Russia | Russia as a Barbaric and Criminal Regime": {
+    "left_camp_counter": "LEFT | pro-Russia | Russia as a Stable and Reliable (Claimed) Energy Partner",
+    "ru_ch_camp_counter": "RU_CH | pro-RUSSIA | Affordable and Competitive Russian Energy",
+    "right_self_counter": "None"
+  },
+  "RIGHT | anti-Russia | Impact on German and European Deindustrialization": {
+    "left_camp_counter": "LEFT | pro-Russia | Russian Gas as a Desired Commodity",
+    "ru_ch_camp_counter": "RU_CH | pro-RUSSIA | Circumventing Western Sanctions",
+    "right_self_counter": "RIGHT | pro-LNG_Gas_Fracking | American energy independence and dominance"
+  },
+  "RIGHT | anti-China | Imposing Tariffs on US Energy Exports": {
+    "left_camp_counter": "LEFT | pro-China | China's Energy Security and Diversification",
+    "ru_ch_camp_counter": "RU_CH | pro-CHINA | Retaliation Against US Tariffs",
+    "right_self_counter": "RIGHT | pro-LNG_Gas_Fracking | expansion of gas and LNG"
+  },
+  "RIGHT | anti-China | Continued Purchase of Russian Gas Despite Sanctions": {
+    "left_camp_counter": "LEFT | pro-China | China's Energy Security and Diversification",
+    "ru_ch_camp_counter": "RU_CH | pro-CHINA | Reliable Partnership with Russia for Energy",
+    "right_self_counter": "RIGHT | pro-EU_Ukraine | Efforts to Reduce Dependence on Russian Energy (Aspirations more than Current Reality in these Tweets)"
+  },
+
+  "RIGHT | anti-China | Alleged Sabotage of Energy Infrastructure": {
+    "left_camp_counter": "LEFT | pro-China | China's Energy Security and Diversification",
+    "ru_ch_camp_counter": "RU_CH | pro-CHINA | China as a Key Global Player in Energy",
+    "right_self_counter": "None"
+  },
+
+  "RIGHT | anti-China | Industrial Needs Driving Gas Demand": {
+    "left_camp_counter": "None",
+    "ru_ch_camp_counter": "None",
+    "right_self_counter": "None"
+  },
+
+  "RIGHT | anti-China | Infiltration of US Infrastructure": {
+    "left_camp_counter": "None",
+    "ru_ch_camp_counter": "None",
+    "right_self_counter": "None"
+  },
+  "RIGHT | anti-EU | Continued Dependence on and Funding of Russia Through Energy Purchases": {
+    "left_camp_counter": "LEFT | pro-Russia | Russia's Energy Infrastructure for Exports",
+    "ru_ch_camp_counter": "RU_CH | pro-RUSSIA | Europe's Continued Dependence and Potential Return to Russian Gas",
+    "right_self_counter": "RIGHT | pro-EU_Ukraine | Efforts to Reduce Dependence on Russian Energy (Aspirations more than Current Reality in these Tweets)"
+  },
+
+  "RIGHT | anti-EU | Hypocrisy and Inaction Regarding Ukraine": {
+    "left_camp_counter": "None",
+    "ru_ch_camp_counter": "None",
+    "right_self_counter": "RIGHT | pro-EU_Ukraine | Ukraine as a Potential Transit Hub for US LNG"
+  },
+
+  "RIGHT | anti-EU | Negative Consequences of Net Zero and Green Energy Policies": {
+    "left_camp_counter": "None",
+    "ru_ch_camp_counter": "RU_CH | pro-IOC | Focus on LNG and Natural Gas Development for Economic Growth",
+    "right_self_counter": "None"
+  },
+  "RIGHT | anti-EU | Ignoring Warnings About Dependence on Russian Energy": {
+    "left_camp_counter": "LEFT | pro-Russia | Russia's Energy Infrastructure for Exports",
+    "ru_ch_camp_counter": "RU_CH | pro-RUSSIA | Energy Infrastructure and Export Capabilities",
+    "right_self_counter": "RIGHT | pro-EU_Ukraine | Efforts to Reduce Dependence on Russian Energy (Aspirations more than Current Reality in these Tweets)"
+  },
+
+  "RIGHT | anti-EU | Internal Divisions and Lack of Leadership": {
+    "left_camp_counter": "None",
+    "ru_ch_camp_counter": "None",
+    "right_self_counter": "RIGHT | pro-EU_Ukraine | Ukraine as a Potential Transit Hub for US LNG"
+  },
+
+  "RIGHT | pro-EU_Ukraine | Efforts to Reduce Dependence on Russian Energy (Aspirations more than Current Reality in these Tweets)": {
+    "left_camp_counter": "LEFT | anti-Europe_Ukraine | reliance on Russian energy",
+    "ru_ch_camp_counter": "None",
+    "right_self_counter": "RIGHT | anti-EU | Continued Dependence on and Funding of Russia Through Energy Purchases"
+  },
+
+  "RIGHT | pro-EU_Ukraine | Ukraine as a Potential Transit Hub for US LNG": {
+    "left_camp_counter": "LEFT | anti-Europe_Ukraine | physical damage inflicted on Ukraine's gas",
+    "ru_ch_camp_counter": "None",
+    "right_self_counter": "RIGHT | anti-Ukraine | Being Used as a Pawn or Proxy in a Larger Conflict"
+  },
+
+  "RIGHT | anti-Ukraine | Corruption and Misuse of Aid": {
+    "left_camp_counter": "LEFT | pro-Ukraine | safety of critical infrastructure like the Chernoby",
+    "ru_ch_camp_counter": "None",
+    "right_self_counter": "None"
+  },
+  "RIGHT | anti-Ukraine | Targeting Russian Energy Infrastructure": {
+    "left_camp_counter": "LEFT | pro-Ukraine | safety of critical infrastructure like the Chernoby",
+    "ru_ch_camp_counter": "RU_CH | pro-RUSSIA | Energy Infrastructure and Export Capabilities",
+    "right_self_counter": "RIGHT | pro-EU_Ukraine | Ukraine as a Potential Transit Hub for US LNG"
+  },
+
+  "RIGHT | anti-Ukraine | Being Used as a Pawn or Proxy in a Larger Conflict": {
+    "left_camp_counter": "LEFT | pro-Ukraine | transit and storage hub",
+    "ru_ch_camp_counter": "None",
+    "right_self_counter": "RIGHT | pro-EU_Ukraine | Ukraine as a Potential Transit Hub for US LNG"
+  },
+
+  "RIGHT | anti-Ukraine | Demands for Aid and Strained Relationships": {
+    "left_camp_counter": "LEFT | pro-Ukraine | transit and storage hub",
+    "ru_ch_camp_counter": "None",
+    "right_self_counter": "None"
+  },
+    "RU_CH | anti-US_USA_America | Trade Wars and Retaliatory Tariffs": {
+        "left_camp_counter": "LEFT | pro-US_USA_America | significant domestic energy resources",
+        "right_camp_counter": "RIGHT | pro-LNG_Gas_Fracking | expansion of gas and LNG",
+        "russia_china_counter": "RU_CH | pro-CHINA | Retaliation Against US Tariffs"
+    },
+    "RU_CH | anti-US_USA_America | Control, Sabotage, and Exploitation of Resources": {
+        "left_camp_counter": "LEFT | pro-US_USA_America | Ukraine aims to use US LNG",
+        "right_camp_counter": "RIGHT | pro-EU_Ukraine | Ukraine as a Potential Transit Hub for US LNG",
+        "russia_china_counter": "RU_CH | pro-IOC | Collaboration and Agreements for Gas Supply"
+    },
+    "RU_CH | anti-US_USA_America | Dependence and Deindustrialization of Europe": {
+        "left_camp_counter": "LEFT | pro-US_USA_America | eading role in rebuilding Ukraine",
+        "right_camp_counter": "RIGHT | pro-EU_Ukraine | Ukraine as a Potential Transit Hub for US LNG",
+        "russia_china_counter": "RU_CH | pro-RUSSIA | Energy Infrastructure and Export Capabilities"
+    },
+    "RU_CH | anti-ISRAEL | Control and Exploitation of Palestinian Resources": {
+        "left_camp_counter": "None",
+        "right_camp_counter": "None",
+        "russia_china_counter": "None"
+    },
+    "RU_CH | anti-IOC_Big_Oil | Rollback of Green Initiatives and Deceptive Greenwashing": {
+        "left_camp_counter": "LEFT | pro-IOC Themes (Less Prominent and Often Countered) | Economic Prosperity through Gas_Oil",
+        "right_camp_counter": "RIGHT | pro-LNG_Gas_Fracking | positive economic outcomes",
+        "russia_china_counter": "RU_CH | pro-IOC | Collaboration and Agreements for Gas Supply"
+    },
+    "RU_CH | anti-IOC_Big_Oil | Environmental Destruction and Health Impacts": {
+        "left_camp_counter": "LEFT | pro-Ukraine | new exporter of green energy",
+        "right_camp_counter": "RIGHT | pro-LNG_Gas_Fracking | expansion of gas and LNG",
+        "russia_china_counter": "RU_CH | pro-IOC | Collaboration and Agreements for Gas Supply"
+    },
+    "RU_CH | anti-IOC_Big_Oil | Fossil Fuel Dependence and Harm to the Planet": {
+        "left_camp_counter": "LEFT | pro-IOC Themes (Less Prominent and Often Countered) | Economic Prosperity through Gas_Oil",
+        "right_camp_counter": "RIGHT | pro-LNG_Gas_Fracking | positive economic outcomes",
+        "russia_china_counter": "RU_CH | pro-IOC | Collaboration and Agreements for Gas Supply"
+    },
+    "RU_CH | anti-IOC_Big_Oil | Protests, Boycotts, and Lack of Accountability": {
+        "left_camp_counter": "LEFT | pro-IOC Themes (Less Prominent and Often Countered) | Economic Prosperity through Gas_Oil",
+        "right_camp_counter": "RIGHT | pro-LNG_Gas_Fracking | positive economic outcomes",
+        "russia_china_counter": "RU_CH | pro-IOC | Collaboration and Agreements for Gas Supply"
+    },
+    "RU_CH | anti-IOC_Big_Oil | Excessive Profits and Greed at the Expense of Others": {
+        "left_camp_counter": "LEFT | pro-IOC Themes (Less Prominent and Often Countered) | Economic Prosperity through Gas_Oil",
+        "right_camp_counter": "RIGHT | pro-LNG_Gas_Fracking | expansion of gas and LNG",
+        "russia_china_counter": "RU_CH | pro-IOC | Collaboration and Agreements for Gas Supply"
+    },
+    "RU_CH | pro-IOC | Focus on LNG and Natural Gas Development for Economic Growth": {
+        "left_camp_counter": "LEFT | anti-US_USA_America | Europe's growing dependence on US LNG",
+        "right_camp_counter": "RIGHT | anti-China | Infiltration of US Infrastructure",
+        "russia_china_counter": "RU_CH | anti-RUSSIA | Disruption of Energy Supplies to Europe"
+    },
+    "RU_CH | pro-IOC | Collaboration and Agreements for Gas Supply": {
+        "left_camp_counter": "LEFT | anti-IOC_Big_Oil | Corporate Greed and Profit Maximization",
+        "right_camp_counter": "RIGHT | anti-Russia | Russia's Aggression and Impact on Ukraine's Energy Infrastructure",
+        "russia_china_counter": "RU_CH | anti-US_USA_America | Control, Sabotage, and Exploitation of Resources"
+    },
+    "RU_CH | pro-IOC | Corporate Social Responsibility": {
+        "left_camp_counter": "LEFT | anti-IOC_Big_Oil | Failed Economic Promises and Negative Impacts",
+        "right_camp_counter": "RIGHT | anti-Russia | Europe's Dependence on Russian Energy and its Negative Consequences",
+        "russia_china_counter": "RU_CH | anti-IOC_Big_Oil | Rollback of Green Initiatives and Deceptive Greenwashing"
+    },
+    "LEFT | anti-RUSSIA | Russia's power is disproportionate": {
+        "right_camp_counter": "RIGHT | pro-LNG_Gas_Fracking | American energy independence and dominance",
+        "ru_ch_camp_counter": "RU_CH | pro-RUSSIA | Affordable and Competitive Russian Energy",
+        "left_self_counter": "LEFT | pro-Russia | Russia as a Stable and Reliable (Claimed) Energy Partner"
+    },
+    "LEFT | anti-RUSSIA | barbaric invasion": {
+        "right_camp_counter": "RIGHT | pro-LNG_Gas_Fracking | American energy independence and dominance",
+        "ru_ch_camp_counter": "RU_CH | pro-RUSSIA | Strong Bilateral Relationships",
+        "left_self_counter": "LEFT | pro-Russia | Russia as a Stable and Reliable (Claimed) Energy Partner"
+    },
+    "LEFT | anti-RUSSIA | Russia's strategic use of its gas": {
+        "right_camp_counter": "RIGHT | pro-LNG_Gas_Fracking | American energy independence and dominance",
+        "ru_ch_camp_counter": "RU_CH | pro-RUSSIA | Energy Infrastructure and Export Capabilities",
+        "left_self_counter": "LEFT | pro-Russia | Russia as a Stable and Reliable (Claimed) Energy Partner"
+    },
+    "LEFT | anti-RUSSIA | reliance of European countries on Russia for their gas": {
+        "right_camp_counter": "RIGHT | pro-EU_Ukraine | Ukraine as a Potential Transit Hub for US LNG",
+        "ru_ch_camp_counter": "RU_CH | pro-RUSSIA | Circumventing Western Sanctions",
+        "left_self_counter": "LEFT | pro-Russia | Russia as a Stable and Reliable (Claimed) Energy Partner"
+    },
+    "LEFT | anti-RUSSIA | financial ties between Europe and Russia": {
+        "right_camp_counter": "RIGHT | pro-EU_Ukraine | Efforts to Reduce Dependence on Russian Energy (Aspirations more than Current Reality in these Tweets)",
+        "ru_ch_camp_counter": "RU_CH | pro-RUSSIA | Circumventing Western Sanctions",
+        "left_self_counter": "LEFT | pro-Russia | Russian Gas as a Desired Commodity"
+    },
+    "LEFT | anti-RUSSIA | Russia's attempts to gain control": {
+        "right_camp_counter": "RIGHT | pro-EU_Ukraine | Ukraine as a Potential Transit Hub for US LNG",
+        "ru_ch_camp_counter": "RU_CH | pro-RUSSIA | Energy Infrastructure and Export Capabilities",
+        "left_self_counter": "LEFT | pro-Russia | Russia's Energy Infrastructure for Exports"
+    },
+    "LEFT | pro-China | China's Energy Security and Diversification": {
+        "right_camp_counter": "RIGHT | anti-China | Alleged Sabotage of Energy Infrastructure",
+        "ru_ch_camp_counter": "RU_CH | anti-CHINA | Demanding Lower Prices from Russia",
+        "left_self_counter": "LEFT | anti-China | China's Support for Russia Through Energy Purchases 2"
+    },
+    "LEFT | anti-China | China's Support for Russia Through Energy Purchases 1": {
+        "right_camp_counter": "RIGHT | pro-EU_Ukraine | Efforts to Reduce Dependence on Russian Energy (Aspirations more than Current Reality in these Tweets)",
+        "ru_ch_camp_counter": "RU_CH | pro-CHINA | Reliable Partnership with Russia for Energy",
+        "left_self_counter": "LEFT | pro-China | China's Energy Security and Diversification"
+    },
+  "RU_CH | pro-CHINA | Energy Security and Self-Sufficiency": {
+    "left_camp_counter": "LEFT | anti-China | China's Support for Russia Through Energy Purchases 2",
+    "right_camp_counter": "None",
+    "russia_china_counter": "RU_CH | anti-CHINA | Demanding Lower Prices from Russia"
+  },
+  "RU_CH | pro-CHINA | Reliable Partnership with Russia for Energy": {
+    "left_camp_counter": "None",
+    "right_camp_counter": "None",
+    "russia_china_counter": "None"
+  },
+  "RU_CH | pro-CHINA | China as a Key Global Player in Energy": {
+    "left_camp_counter": "None",
+    "right_camp_counter": "None",
+    "russia_china_counter": "None"
+  },
+  "RU_CH | pro-CHINA | Retaliation Against US Tariffs": {
+    "left_camp_counter": "LEFT | anti-China | China's Retaliatory Tariffs and Trade Disputes with the US",
+    "right_camp_counter": "RIGHT | anti-China | Imposing Tariffs on US Energy Exports",
+    "russia_china_counter": "None"
+  },
+  "RU_CH | anti-CHINA | Supporting Russia Through Energy Purchases": {
+    "left_camp_counter": "LEFT | pro-China | China's Energy Security and Diversification",
+    "right_camp_counter": "None",
+    "russia_china_counter": "RU_CH | pro-CHINA | Reliable Partnership with Russia for Energy"
+  },
+  "RU_CH | anti-CHINA | Demanding Lower Prices from Russia": {
+    "left_camp_counter": "None",
+    "right_camp_counter": "None",
+    "russia_china_counter": "RU_CH | pro-CHINA | Energy Security and Self-Sufficiency"
+  },
+  "RU_CH | pro-RUSSIA | Reliable and Vast Energy Supplier": {
+    "left_camp_counter": "LEFT | anti-RUSSIA | reliance of European countries on Russia for their gas",
+    "right_camp_counter": "RIGHT | anti-Russia | Europe's Dependence on Russian Energy and its Negative Consequences",
+    "russia_china_counter": "RU_CH | anti-RUSSIA | Unreliable Partner"
+  },
+  "RU_CH | pro-RUSSIA | Energy Infrastructure and Export Capabilities": {
+    "left_camp_counter": "None",
+    "right_camp_counter": "RIGHT | anti-Russia | Russia as an Unreliable and Threatening Energy Partner",
+    "russia_china_counter": "RU_CH | anti-RUSSIA | Disruption of Energy Supplies to Europe"
+  },
+  "RU_CH | pro-RUSSIA | Europe's Continued Dependence and Potential Return to Russian Gas": {
+    "left_camp_counter": "LEFT | anti-RUSSIA | reliance of European countries on Russia for their gas",
+    "right_camp_counter": "RIGHT | anti-Russia | Europe's Dependence on Russian Energy and its Negative Consequences",
+    "russia_china_counter": "RU_CH | anti-RUSSIA | Unreliable Partner"
+  },
+  "RU_CH | pro-RUSSIA | Affordable and Competitive Russian Energy": {
+    "left_camp_counter": "None",
+    "right_camp_counter": "RIGHT | anti-Russia | Russia as an Unreliable and Threatening Energy Partner",
+    "russia_china_counter": "RU_CH | anti-RUSSIA | Unreliable Partner"
+  },
+  "RU_CH | pro-RUSSIA | Strong Bilateral Relationships": {
+    "left_camp_counter": "LEFT | anti-RUSSIA | barbaric invasion",
+    "right_camp_counter": "RIGHT | anti-Russia | Russia as a Barbaric and Criminal Regime",
+    "russia_china_counter": "None"
+  },
+  "RU_CH | pro-RUSSIA | Circumventing Western Sanctions": {
+    "left_camp_counter": "None",
+    "right_camp_counter": "None",
+    "russia_china_counter": "None"
+  },
+  "RU_CH | anti-RUSSIA | Energy as a Tool for Blackmail_Extortion": {
+    "left_camp_counter": "LEFT | pro-Russia | Russia as a Stable and Reliable (Claimed) Energy Partner",
+    "right_camp_counter": "None",
+    "russia_china_counter": "None"
+  },
+  "RU_CH | anti-RUSSIA | Disruption of Energy Supplies to Europe": {
+    "left_camp_counter": "LEFT | pro-Russia | Russia's Energy Infrastructure for Exports",
+    "right_camp_counter": "None",
+    "russia_china_counter": "RU_CH | pro-RUSSIA | Energy Infrastructure and Export Capabilities"
+  },
+  "RU_CH | anti-RUSSIA | Financing War Through Oil and Gas Revenues": {
+    "left_camp_counter": "None",
+    "right_camp_counter": "None",
+    "russia_china_counter": "None"
+  },
+  "RU_CH | anti-RUSSIA | Unreliable Partner": {
+    "left_camp_counter": "LEFT | pro-Russia | Russia's Energy Infrastructure for Exports",
+    "right_camp_counter": "None",
+    "russia_china_counter": "RU_CH | pro-RUSSIA | Circumventing Western Sanctions"
+  },
+  "RU_CH | anti-RUSSIA | Gas Station with Nukes": {
+    "left_camp_counter": "LEFT | pro-Russia | Russia as a Stable and Reliable (Claimed) Energy Partner",
+    "right_camp_counter": "None",
+    "russia_china_counter": "None"
+  },
+  "RU_CH | anti-US_USA_America | High Energy Prices and Economic Harm": {
+    "left_camp_counter": "None",
+    "right_camp_counter": "RIGHT | pro-LNG_Gas_Fracking | lower energy prices and security",
+    "russia_china_counter": "None"
+  },
+  "RU_CH | anti-US_USA_America | Pressure and Manipulation in Energy Markets": {
+    "left_camp_counter": "None",
+    "right_camp_counter": "None",
+    "russia_china_counter": "None"
+  },
+  "RU_CH | anti-US_USA_America | Ineffective and Harmful Sanctions": {
+    "left_camp_counter": "None",
+    "right_camp_counter": "None",
+    "russia_china_counter": "None"
+  },
+    "RIGHT | anti-Renewables_Green-Energy_Net-Zero | increased energy costs": {
+    "left_camp_counter": "LEFT | pro-EU_Ukraine | investments in renewable energy",
+    "ru_ch_camp_counter": "RU_CH | pro-CHINA | Energy Security and Self-Sufficiency",
+    "right_self_counter": "RIGHT | pro-LNG_Gas_Fracking | lower energy prices and security"
+  },
+  "RIGHT | anti-Renewables_Green-Energy_Net-Zero | reliability of renewable energy sources": {
+    "left_camp_counter": "LEFT | pro-EU_Ukraine | investments in renewable energy",
+    "ru_ch_camp_counter": "RU_CH | pro-CHINA | Energy Security and Self-Sufficiency",
+    "right_self_counter": "RIGHT | pro-LNG_Gas_Fracking | lower energy prices and security"
+  },
+  "RIGHT | anti-Renewables_Green-Energy_Net-Zero | job losses traditional energy": {
+    "left_camp_counter": "LEFT | pro-EU_Ukraine | investments in renewable energy",
+    "ru_ch_camp_counter": "RU_CH | pro-CHINA | Energy Security and Self-Sufficiency",
+    "right_self_counter": "None"
+  },
+  "RIGHT | anti-Renewables_Green-Energy_Net-Zero | performance of renewable energy investments": {
+    "left_camp_counter": "LEFT | pro-EU_Ukraine | investments in renewable energy",
+    "ru_ch_camp_counter": "RU_CH | pro-CHINA | Energy Security and Self-Sufficiency",
+    "right_self_counter": "None"
+  },
+  "RIGHT | anti-Renewables_Green-Energy_Net-Zero | economic decline": {
+    "left_camp_counter": "LEFT | pro-EU_Ukraine | investments in renewable energy",
+    "ru_ch_camp_counter": "RU_CH | pro-CHINA | Energy Security and Self-Sufficiency",
+    "right_self_counter": "None"
+  },
+  "RIGHT | anti-Renewables_Green-Energy_Net-Zero | green agenda as a dangerous": {
+    "left_camp_counter": "LEFT | pro-EU_Ukraine | investments in renewable energy",
+    "ru_ch_camp_counter": "RU_CH | pro-CHINA | Energy Security and Self-Sufficiency",
+    "right_self_counter": "RIGHT | pro-LNG_Gas_Fracking | lower energy prices and security"
+  },
+  "RIGHT | anti-Renewables_Green-Energy_Net-Zero | bans on natural gas use": {
+    "left_camp_counter": "LEFT | pro-IOC Themes (Less Prominent and Often Countered) | Economic Prosperity through Gas_Oil",
+    "ru_ch_camp_counter": "RU_CH | pro-CHINA | Energy Security and Self-Sufficiency",
+    "right_self_counter": "RIGHT | pro-LNG_Gas_Fracking | lower energy prices and security"
+  },
+  "RIGHT | anti-Renewables_Green-Energy_Net-Zero | rejection of LNG projects in Canada": {
+    "left_camp_counter": "LEFT | pro-US_USA_America | cleaner LNG exports",
+    "ru_ch_camp_counter": "RU_CH | pro-IOC | Focus on LNG and Natural Gas Development for Economic Growth",
+    "right_self_counter": "None"
+  },
+  "RIGHT | anti-Renewables_Green-Energy_Net-Zero | driving out energy companies": {
+    "left_camp_counter": "LEFT | pro-Ukraine | new exporter of green energy",
+    "ru_ch_camp_counter": "RU_CH | pro-CHINA | Energy Security and Self-Sufficiency",
+    "right_self_counter": "RIGHT | pro-LNG_Gas_Fracking | lower energy prices and security"
+  },
+  "RIGHT | pro-LNG_Gas_Fracking | American energy independence and dominance": {
+    "left_camp_counter": "LEFT | anti-US_USA_America | criticizes the US for the high cost of its energy",
+    "ru_ch_camp_counter": "RU_CH | anti-US_USA_America | High Energy Prices and Economic Harm",
+    "right_self_counter": "RIGHT | anti-Russia | Russia as an Unreliable and Threatening Energy Partner"
+  },
+  "RIGHT | pro-LNG_Gas_Fracking | expansion of gas and LNG": {
+    "left_camp_counter": "LEFT | anti-IOC_Big_Oil | Fossil Fuel Dependence and Climate Crisis",
+    "ru_ch_camp_counter": "RU_CH | anti-US_USA_America | High Energy Prices and Economic Harm",
+    "right_self_counter": "RIGHT | anti-China | Imposing Tariffs on US Energy Exports"
+  },
+  "RIGHT | pro-LNG_Gas_Fracking | positive economic outcomes": {
+    "left_camp_counter": "LEFT | anti-US_USA_America | criticizes the US for the high cost of its energy",
+    "ru_ch_camp_counter": "RU_CH | anti-US_USA_America | High Energy Prices and Economic Harm",
+    "right_self_counter": "RIGHT | anti-China | Imposing Tariffs on US Energy Exports"
+  },
+  "RIGHT | pro-LNG_Gas_Fracking | lower energy prices and security": {
+    "left_camp_counter": "LEFT | anti-US_USA_America | criticizes the US for the high cost of its energy",
+    "ru_ch_camp_counter": "RU_CH | anti-US_USA_America | High Energy Prices and Economic Harm",
+    "right_self_counter": "RIGHT | anti-Russia | Russia as an Unreliable and Threatening Energy Partner"
+  },
+  "RIGHT | pro-LNG_Gas_Fracking | growing energy demands": {
+    "left_camp_counter": "LEFT | anti-US_USA_America | criticizes the US for the high cost of its energy",
+    "ru_ch_camp_counter": "RU_CH | anti-US_USA_America | High Energy Prices and Economic Harm",
+    "right_self_counter": "RIGHT | anti-Russia | Russia as an Unreliable and Threatening Energy Partner"
+  },
+  "RIGHT | pro-LNG_Gas_Fracking | lifting of the Biden administration's restrictions on gas": {
+    "left_camp_counter": "LEFT | anti-IOC_Big_Oil | Failed Economic Promises and Negative Impacts",
+    "ru_ch_camp_counter": "RU_CH | anti-US_USA_America | High Energy Prices and Economic Harm",
+    "right_self_counter": "RIGHT | anti-China | Imposing Tariffs on US Energy Exports"
+  },
+  "RIGHT | pro-LNG_Gas_Fracking | importance of pipeline infrastructure": {
+    "left_camp_counter": "LEFT | anti-US_USA_America | criticizes the US for the high cost of its energy",
+    "ru_ch_camp_counter": "RU_CH | anti-US_USA_America | High Energy Prices and Economic Harm",
+    "right_self_counter": "RIGHT | anti-China | Infiltration of US Infrastructure"
+  },
+  "RIGHT | anti-Russia | Europe's Dependence on Russian Energy and its Negative Consequences": {
+    "left_camp_counter": "LEFT | pro-Russia | Russia's Energy Infrastructure for Exports",
+    "ru_ch_camp_counter": "RU_CH | pro-RUSSIA | Circumventing Western Sanctions",
+    "right_self_counter": "RIGHT | pro-EU_Ukraine | Efforts to Reduce Dependence on Russian Energy (Aspirations more than Current Reality in these Tweets)"
+  },
+  "RIGHT | anti-Russia | Funding Russia's War Through Energy Purchases": {
+    "left_camp_counter": "LEFT | pro-Russia | Russia as a Stable and Reliable (Claimed) Energy Partner",
+    "ru_ch_camp_counter": "RU_CH | pro-RUSSIA | Circumventing Western Sanctions",
+    "right_self_counter": "None"
+  },
+  "RIGHT | anti-Russia | Russia as an Unreliable and Threatening Energy Partner": {
+    "left_camp_counter": "LEFT | pro-Russia | Russia as a Stable and Reliable (Claimed) Energy Partner",
+    "ru_ch_camp_counter": "RU_CH | pro-RUSSIA | Energy Infrastructure and Export Capabilities",
+    "right_self_counter": "RIGHT | pro-LNG_Gas_Fracking | American energy independence and dominance"
+  },
+  "RIGHT | anti-Russia | Russia's Aggression and Impact on Ukraine's Energy Infrastructure": {
+    "left_camp_counter": "LEFT | pro-Russia | Russia's Energy Infrastructure for Exports",
+    "ru_ch_camp_counter": "RU_CH | pro-RUSSIA | Energy Infrastructure and Export Capabilities",
+    "right_self_counter": "RIGHT | pro-EU_Ukraine | Ukraine as a Potential Transit Hub for US LNG"
+  }
+  
+}
