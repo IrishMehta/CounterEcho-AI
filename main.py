@@ -49,10 +49,9 @@ def main():
     
     groq_api_key = os.environ.get('GROQ_API_KEY')
     if not groq_api_key:
-        print("\nERROR: GROQ_API_KEY not found in environment variables.")
-        print("   Set it with: export GROQ_API_KEY='your-key-here'")
-        print("   Exiting...")
-        return
+        error_msg = "GROQ_API_KEY not found in environment variables. Set it with: export GROQ_API_KEY='your-key-here'"
+        print(f"\nERROR: {error_msg}")
+        raise ValueError(error_msg)
     
     strategy_mapper = StrategyMapper(
         narrative_mapping_path=NARRATIVE_MAPPING_PATH,
@@ -96,73 +95,70 @@ def main():
     
     detected_narrative = narrative_detector.detect_narrative(actual_tweet)
     
-    if detected_narrative:
-        print(f"\nDetected Narrative:")
-        print(f"   {detected_narrative}")
-    else:
-        print("\nNo specific narrative detected from tweet text.")
-        print(f"   Attempting to use camp-based default for camp: {camp}")
-        default_narratives = {
-            'RU_CH': 'RU_CH | pro-RUSSIA | Reliable and Vast Energy Supplier',
-            'LEFT': 'LEFT | anti-Russia | Russia as an Unreliable and Threatening Energy Partner',
-            'RIGHT': 'RIGHT | pro-US_USA_America | US Energy Dominance and Exports'
-        }
-        detected_narrative = default_narratives.get(camp)
-        if detected_narrative:
-            print(f"   Using default: {detected_narrative}")
-        else:
-            raise ValueError(f"No default narrative available for camp: {camp}")
+    if not detected_narrative:
+        print("\nERROR: No specific narrative detected from tweet text.")
+        print(f"   Tweet: \"{actual_tweet}\"")
+        print(f"   User Camp: {camp}")
+        raise ValueError(f"Failed to detect narrative from tweet. Cannot proceed with counter-narrative generation.")
     
-    if detected_narrative:
-        print("\n" + "="*80)
-        print("STRATEGIC COUNTER-NARRATIVE GENERATION")
-        print("="*80)
+    print(f"\nDetected Narrative:")
+    print(f"   {detected_narrative}")
+    
+    print("\n" + "="*80)
+    print("STRATEGIC COUNTER-NARRATIVE GENERATION")
+    print("="*80)
         
-        result = strategy_mapper.map_strategy(
-            user_id=user_id,
-            tweet_text=actual_tweet,
-            current_narrative=detected_narrative,
-            vulnerability_score=vulnerability_score
-        )
-        
-        print(f"\nStrategy Selected: {result['strategy'].upper()}")
-        print(f"   Vulnerability: {result['vulnerability_score']:.3f}")
-        
-        if 'error' in result:
-            print(f"\nError: {result['error']}")
-        else:
-            if result['strategy'] == 'direct_counter':
-                print(f"\nCounter-Narrative:")
-                print(f"   {result['counter_narrative']}")
-            elif result['strategy'] == 'adjacency_attack':
-                print(f"\nAdjacent Narrative (Same Camp):")
-                print(f"   {result['adjacent_narrative']}")
-                print(f"   Contradiction Score: {result.get('contradiction_score', 'N/A')}")
-            
-            if 'generated_response' in result and 'message' in result['generated_response']:
-                print("\n" + "="*80)
-                print("RECOMMENDED RESPONSE")
-                print("="*80)
-                
-                generated = result['generated_response']
-                
-                print(f"\nStrategic Intent:")
-                if result['strategy'] == 'direct_counter':
-                    print(f"   {generated.get('summary', 'Challenge the adversarial narrative directly')}")
-                else:
-                    print(f"   {generated.get('strategic_intent', 'Create cognitive dissonance')}")
-                
-                print(f"\nMessage to Post:")
-                print(f"   {generated['message']}")
-                
-                print(f"\nMessage Characteristics:")
-                print(f"   - Target Audience: {generated.get('target_audiences', 'N/A')}")
-                print(f"   - Stance: {generated.get('stance', 'N/A')}")
-                print(f"   - Label: {generated.get('label', 'N/A')}")
-            else:
-                raise ValueError("No message generated in response")
+    result = strategy_mapper.map_strategy(
+        user_id=user_id,
+        tweet_text=actual_tweet,
+        current_narrative=detected_narrative,
+        vulnerability_score=vulnerability_score
+    )
+    
+    print(f"\nStrategy Selected: {result['strategy'].upper()}")
+    print(f"   Vulnerability: {result['vulnerability_score']:.3f}")
+    
+    if 'error' in result:
+        print(f"\nERROR in strategy mapping: {result['error']}")
+        raise ValueError(f"Strategy mapping failed: {result['error']}")
+    
+    if result['strategy'] == 'direct_counter':
+        if 'counter_narrative' not in result:
+            raise ValueError("Direct counter strategy selected but no counter-narrative found")
+        print(f"\nCounter-Narrative:")
+        print(f"   {result['counter_narrative']}")
+    elif result['strategy'] == 'adjacency_attack':
+        if 'adjacent_narrative' not in result:
+            raise ValueError("Adjacency attack strategy selected but no adjacent narrative found")
+        print(f"\nAdjacent Narrative (Same Camp):")
+        print(f"   {result['adjacent_narrative']}")
+        print(f"   Contradiction Score: {result.get('contradiction_score', 'N/A')}")
+    
+    if 'generated_response' not in result:
+        raise ValueError("No generated response found in strategy mapping result")
+    
+    if 'message' not in result['generated_response']:
+        raise ValueError("No message found in generated response")
+    
+    print("\n" + "="*80)
+    print("RECOMMENDED RESPONSE")
+    print("="*80)
+    
+    generated = result['generated_response']
+    
+    print(f"\nStrategic Intent:")
+    if result['strategy'] == 'direct_counter':
+        print(f"   {generated.get('summary', 'Challenge the adversarial narrative directly')}")
     else:
-        raise ValueError("Cannot proceed without a detected narrative")
+        print(f"   {generated.get('strategic_intent', 'Create cognitive dissonance')}")
+    
+    print(f"\nMessage to Post:")
+    print(f"   {generated['message']}")
+    
+    print(f"\nMessage Characteristics:")
+    print(f"   - Target Audience: {generated.get('target_audiences', 'N/A')}")
+    print(f"   - Stance: {generated.get('stance', 'N/A')}")
+    print(f"   - Label: {generated.get('label', 'N/A')}")
     
     print("\n" + "="*80)
     print("EXECUTION COMPLETE")

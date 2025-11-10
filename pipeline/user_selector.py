@@ -35,6 +35,7 @@ def select_random_user_with_tweet(
 ) -> Tuple[str, str, str, str]:
     """
     Select a random user from the network with their actual tweet.
+    Only selects from communities that are mapped to camps.
     
     Args:
         community_df: DataFrame with Id and community columns
@@ -47,14 +48,20 @@ def select_random_user_with_tweet(
     tweets_df['user_id'] = tweets_df['user_id'].astype(str)
     community_df['Id'] = community_df['Id'].astype(str)
     
-    users_with_tweets = set(tweets_df['user_id'].unique())
-    community_with_tweets = community_df[community_df['Id'].isin(users_with_tweets)]
+    # Filter to only include communities that are mapped to camps
+    mapped_communities = list(COMMUNITY_TO_CAMP.keys())
+    community_df_filtered = community_df[community_df['community'].isin(mapped_communities)]
     
-    logger.info(f"Found {len(community_with_tweets)} users with both community and tweets")
+    logger.info(f"Filtered to {len(community_df_filtered)} users in mapped communities: {mapped_communities}")
+    
+    users_with_tweets = set(tweets_df['user_id'].unique())
+    community_with_tweets = community_df_filtered[community_df_filtered['Id'].isin(users_with_tweets)]
+    
+    logger.info(f"Found {len(community_with_tweets)} users with both community and tweets in mapped communities")
     
     if len(community_with_tweets) == 0:
-        logger.error("No users found with both community assignment and tweets")
-        raise ValueError("No users found with both community assignment and tweets")
+        logger.error("No users found with both community assignment and tweets in mapped communities")
+        raise ValueError("No users found with both community assignment and tweets in mapped communities")
     
     selected_row = community_with_tweets.sample(n=1).iloc[0]
     user_id = str(selected_row['Id'])
@@ -64,6 +71,7 @@ def select_random_user_with_tweet(
     
     camp = COMMUNITY_TO_CAMP.get(community)
     if not camp:
+        # This should never happen now due to filtering, but keep as safeguard
         logger.error(f"Community {community} not mapped to any camp")
         raise ValueError(f"Community {community} not mapped to any camp")
     
