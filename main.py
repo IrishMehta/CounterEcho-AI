@@ -93,7 +93,7 @@ def main():
     print("NARRATIVE DETECTION")
     print("="*80)
     
-    detected_narrative = narrative_detector.detect_narrative(actual_tweet)
+    detected_narrative = narrative_detector.detect_narrative(actual_tweet, user_camp=camp)
     
     if not detected_narrative:
         print("\nERROR: No specific narrative detected from tweet text.")
