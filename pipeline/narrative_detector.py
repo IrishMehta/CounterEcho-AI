@@ -57,13 +57,13 @@ class NarrativeDetector:
         keywords = [kw.strip().lower() for kw in cleaned.split(',')]
         return set(keywords)
     
-    def detect_narrative(self, text: str, min_matches: int = 2) -> Optional[str]:
+    def detect_narrative(self, text: str, min_matches: int = 4) -> Optional[str]:
         """
         Detect narrative from tweet text.
         
         Args:
             text: Tweet text
-            min_matches: Minimum keyword matches required (default: 2)
+            min_matches: Minimum keyword matches required (default: 4, increased to reduce false positives)
             
         Returns:
             Narrative label or None
@@ -74,7 +74,12 @@ class NarrativeDetector:
         best_score = 0
         
         for narrative in self.flat_narratives:
-            matches = sum(1 for kw in narrative['keywords'] if kw and len(kw) > 2 and kw in text_lower)
+            # Only count keywords that are:
+            # 1) Not empty
+            # 2) At least 3 characters long (avoid matching very short words)
+            # 3) Actually present in the text
+            matches = sum(1 for kw in narrative['keywords'] 
+                         if kw and len(kw) >= 3 and kw in text_lower)
             
             if matches > best_score and matches >= min_matches:
                 best_score = matches
