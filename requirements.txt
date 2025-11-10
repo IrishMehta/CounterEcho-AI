@@ -1,0 +1,14 @@
+# Core Data Science Libraries
+pandas
+numpy
+networkx
+
+# Machine Learning & NLP
+sentence-transformers
+scikit-learn
+
+# API Integration
+groq
+
+# Utilities
+python-dotenv
