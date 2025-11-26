@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CounterEcho AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-glow"></div>
+
+    <div class="app-container">
+        <!-- Sidebar: User Selection -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <i class="fa-solid fa-wave-square"></i>
+                <h1>CounterEcho</h1>
+            </div>
+
+            <div class="users-list" id="users-list">
+                <!-- Users injected here -->
+                <div class="loading-spinner">Loading users...</div>
+            </div>
+        </aside>
+
+        <!-- Main Feed -->
+        <main class="feed">
+            <div class="feed-header">
+                <h2>Home</h2>
+            </div>
+
+            <!-- Tweet Compose Box -->
+            <div class="compose-box">
+                <div class="compose-avatar">
+                    <div class="avatar-placeholder"><i class="fa-solid fa-user"></i></div>
+                </div>
+                <div class="compose-content">
+                    <textarea id="tweet-content" placeholder="What is happening?!"></textarea>
+                    <div class="compose-actions">
+                        <div class="compose-icons">
+                            <i class="fa-regular fa-image"></i>
+                            <i class="fa-solid fa-list-ul"></i>
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <button id="post-btn" class="post-btn" disabled>Post</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feed Stream -->
+            <div id="feed-stream" class="feed-stream">
+                <!-- Tweets and replies will appear here -->
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

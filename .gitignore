@@ -1,0 +1,15 @@
+__pycache__/
+.env
+pipeline_old/
+analyze_graph.py
+graph_analysis_report.json
+graph_analysis_report.txt
+phase_0_flow_counts.md
+server.log
+data/
+main.py
+CounterEcho-backend/notes.txt
+
+# Python cache
+__pycache__/
+*.pyc

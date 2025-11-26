@@ -9,6 +9,12 @@ scikit-learn
 
 # API Integration
 groq
+google-generativeai
+
+# Web Framework
+fastapi
+uvicorn[standard]
+pydantic
 
 # Utilities
 python-dotenv
