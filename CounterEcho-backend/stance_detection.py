@@ -2,11 +2,11 @@ import os, json, time
 import sys
 from pathlib import Path
 
-# Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
+# Add Stance-Detection directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent / "Stance-Detection"))
 
 from typing import Dict, List, Any
-from stance_detection.config import (
+from config import (
     DIMENSIONS, DEFAULT_MODEL, PROMPT_AXES_LINES_LIMIT, PROMPT_NARRATIVE_LINES_LIMIT
 )
 import google.generativeai as genai

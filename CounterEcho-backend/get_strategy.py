@@ -15,14 +15,6 @@ STRATEGIES: Dict[str, str] = {
         "3. **Structure:** Use lists and parallelism to synthesize complex facts. Long-form content is acceptable.\n"
         "4. **Closing Value:** Prophetic/Curational Identity. Validate they are 'in the know' and offer a market/political prediction."
     ),
-    "neutral": (
-        "### STRATEGY: PERSONALIZED FRICTION (Target: Neutral/Passive)\n"
-        "**Goal:** Dissolve echo chamber via self-preservation and low-friction engagement.\n"
-        "1. **Hook (Health Check):** Connect the topic immediately to physiological stress.\n"
-        "2. **Payload (The Simple Cost):** distinct financial or safety loss attributed to a trusted leader's failure.\n"
-        "3. **Structure:** Direct Reply. Short, visceral, unfiltered style with emojis. Maximize efficiency/low investment.\n"
-        "4. **Closing Value:** Instructional Utility. Offer a 'self-care' epiphany or simple advice to mitigate the stress."
-    ),
     "close_minded": (
         "### STRATEGY: INTERNAL CONTRADICTION (Target: Conservative/Identity)\n"
         "**Goal:** Dissolve echo chamber by hijacking Outrage and redirecting it internally at failed leaders.\n"
@@ -43,7 +35,7 @@ def get_strategy(user_category: str) -> str:
     :return: Strategy text for the prompt.
     """
     # Default to neutral if category not found
-    return STRATEGIES.get(user_category, STRATEGIES["neutral"])
+    return STRATEGIES.get(user_category, "")  # Neutral users have no specific strategy
 
 
 def get_all_strategies() -> Dict[str, str]:
