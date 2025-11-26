@@ -9,6 +9,7 @@ server.log
 data/
 main.py
 CounterEcho-backend/notes.txt
+CounterEcho-backend/__pycache__/
 
 # Python cache
 __pycache__/
