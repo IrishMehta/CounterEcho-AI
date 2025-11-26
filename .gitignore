@@ -7,7 +7,6 @@ graph_analysis_report.txt
 phase_0_flow_counts.md
 server.log
 data/
-main.py
 CounterEcho-backend/notes.txt
 CounterEcho-backend/__pycache__/
 
