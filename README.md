@@ -51,8 +51,15 @@ Create a `.env` file in the root directory and add your API keys:
 
 ```env
 GROQ_API_KEY=your_groq_api_key
-GOOGLE_API_KEY=your_google_api_key
+GEMINI_API_KEY=your_gemini_api_key
 ```
+
+## Data Requirements
+
+The system relies on pre-computed data files located in the `data/` directory. Ensure the following files are present:
+- `user_vectors_aggregated.csv`: Contains user vulnerability scores after ANCO HITS.
+- `community.csv`: Maps users to communities and camps.
+- `narratives.json`: Defines the narratives and counter-narratives.
 
 ## Running the Application
 
